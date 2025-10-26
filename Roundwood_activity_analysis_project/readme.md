@@ -9,7 +9,12 @@ Project participate is devided parts:
 - Calculating some values and preparing talbes for analysis in SQL
 - Visualization within Talbeau
 - correlation and regression analysis with Python by Jupyter Notebook
-- ##  Data cleaning :page_with_curl:
-  In this part I deleted noninforing columns, for example Frequency, decimals displayed, Confidentuality etc. These columns had not important information or mostly hadn't information (The biggest part of Confidentiality was 'Condfidential statistical informatioin' value, or Frequency had only one value 'Annual' in every row). With using PostgreSQL was writen [script for cleaning](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/cleaning%20script.sql) a data set and getting a value into a right scaling. 
+- ###  Data cleaning :page_with_curl:
+  In this part was used a SQL, precisely PosgreSQL [script for cleaning](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/cleaning%20script.sql) 
+- ### Transform into long format
+  For Transforming has been used Pandas for parcing a file and NumPy for making a long format. For this has been written a [script for transforming](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/ForestDataCleaning.py). In result I got a [prepared dataset for analysis and visualization](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/forestdata1.3.zip).
+- ### Visualization
+  For visualization I used Tableau. The simple visualization with overview values and annual KPI has been created for looking for insights in data. A dashboard you can seen in [my profile](https://public.tableau.com/app/profile/vlad.chernetskiy/viz/ForestlyActivitiesProjectRemaster/detalview) in Tableau Public   
+    
   
 
