@@ -9,11 +9,11 @@ The goals of my project:
 - Create a forecast of future felling values and prices 
 ## Contains
 Project participate is devided parts: 
-- [Data cleaning by SQL(PosgreSQL)](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/cleaning%20script.sql)
-- [Transform into long format using Python](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/ForestDataCleaning.py)
-- [Calculating some values and preparing talbes for analysis in SQL](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/script%20for%20analys%20and%20visualization.sql)
-- [Visualization within Talbeau](https://public.tableau.com/app/profile/vlad.chernetskiy/viz/ForestlyActivitiesProjectRemaster/detalview) 
-- correlation and regression analysis with Python by Jupyter Notebook
+- [Data cleaning ](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/cleaning%20script.sql)
+- [Transform into long format](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/ForestDataCleaning.py)
+- [Transforming and preparint data for analysis](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/script%20for%20analys%20and%20visualization.sql)
+- [correlation and regression analysis with Python by Jupyter Notebook](https://github.com/vlad-chernetskiy/My_portfolio_projects/tree/main/Roundwood_activity_analysis_project/analysis_scripts)
+-  [Visualization within Talbeau](https://public.tableau.com/app/profile/vlad.chernetskiy/viz/ForestlyActivitiesProjectRemaster/detalview) 
 ###  Data cleaning :
 In this part was used a SQL, precisely PosgreSQL [script for cleaning](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/cleaning%20script.sql) 
 ### Data Transformation
@@ -31,6 +31,10 @@ For visualization has been created a dashboard which contains:
 - Yearly felling and revenue trends.
 - Avarage price per cubic meter for industrial and fuel wood.
 - KPI dynamics compared to the previous year.
+
+
+  <img width="1149" height="664" alt="image" src="https://github.com/user-attachments/assets/c0bab29f-d9ea-4268-aab5-2e0e9aab39a5" />
+
 A dashboard you can seen in [my profile in Tableau Public].(https://public.tableau.com/app/profile/vlad.chernetskiy/viz/ForestlyActivitiesProjectRemaster/detalview)    
 ## Key insights
 - Total felling volume has been steadily decreaseing since 2015.
