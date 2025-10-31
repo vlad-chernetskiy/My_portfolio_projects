@@ -1,6 +1,6 @@
 # **Roundwood activity analysis project** :deciduous_tree:
 ## Overview
-This project I have been analysis roundwood activities in Ukraine by data set [Forest management activities](https://stat.gov.ua/en/datasets/forest-management-activities) from [Ukrstat.com](https://stat.gov.ua/en). 
+This project have been created for analysis roundwood activities in Ukraine by data set [Forest management activities](https://stat.gov.ua/en/datasets/forest-management-activities) from [Ukrstat.com](https://stat.gov.ua/en). 
 ## Purpouse
 The goals of my project: 
 - Analyse the dinamics of roundwood felling and sales in Ukraine.
