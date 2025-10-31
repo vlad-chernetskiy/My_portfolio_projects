@@ -26,7 +26,7 @@ WHERE a.ParcelID = b.ParcelID
   AND a.PropertyAddress IS NULL;
 ------------------------------------
 
---breaking out address into the different columns(address, city)
+-- breaking out address into the different columns(address, city)
 -- for this we will using the substrings and char index
 SELECT SUBSTRING(propertyaddress FROM 1 FOR POSITION(',' in propertyaddress)-1) AS Address,
 SUBSTRING(propertyaddress FROM  POSITION(',' in propertyaddress)+1 FOR LENGTH(propertyaddress)) AS City
@@ -46,7 +46,7 @@ select * from datacleaning;
  alter table datacleaning
  drop column property_address;
 
---standartizing all columns---------
+-- standartizing all columns---------
 
 select distinct (soldasvacant),count(soldasvacant)
 from datacleaning
@@ -74,7 +74,7 @@ select *
 from datacleaning
 where ownername is null;
 
---delete duplicates----------
+-- delete duplicates----------
 delete from datacleaning 
 where UniqueID in(
 	select UniqueID
@@ -97,3 +97,4 @@ where row_num>1
 alter table datacleaning 
 drop column PropertyAddress;
 ----------------------------
+
