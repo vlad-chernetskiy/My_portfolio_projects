@@ -26,5 +26,5 @@ After all operations with data found next insights:
  - Total value, or appraised value of the entire property, have strong influence on the sale price of property.
  - Most of sold was buied by families and mostly with 2-4 bedrooms.
  - Most of sold property was'nt vacant
- - The most popular city for buing property is Neshvile, its explained by not quite big price of properties and another factors.   
+ - The most popular city for buing property is Neshvile, its explained by not quite big price of properties, high land and building value and another factors.   
 
