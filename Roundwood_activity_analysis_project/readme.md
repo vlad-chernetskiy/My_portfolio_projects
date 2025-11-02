@@ -1,27 +1,27 @@
 # **Roundwood activity analysis project** :deciduous_tree:
 ## Overview
-This project have been created for analysis roundwood activities in Ukraine by data set [Forest management activities](https://stat.gov.ua/en/datasets/forest-management-activities) from [Ukrstat.com](https://stat.gov.ua/en). 
+This project has been created for analysis roundwood activities in Ukraine by data set [Forest management activities](https://stat.gov.ua/en/datasets/forest-management-activities) from [Ukrstat.com](https://stat.gov.ua/en). 
 ## Purpouse
-The goals of my project: 
+The goals of this project: 
 - Analyse the dinamics of roundwood felling and sales in Ukraine.
 - Identify relationships between main metrics.
 - Conduct correlation and regression anaylses to understand causal patterns.
 - Create a forecast of future felling values and prices 
 ## Contains
-Project participate is devided parts: 
+Project is devided by parts: 
 - [Data cleaning ](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/cleaning%20script.sql)
 - [Transform into long format](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/ForestDataCleaning.py)
 - [Transforming and preparint data for analysis](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/script%20for%20analys%20and%20visualization.sql)
 - [correlation and regression analysis with Python by Jupyter Notebook](https://github.com/vlad-chernetskiy/My_portfolio_projects/tree/main/Roundwood_activity_analysis_project/analysis_scripts)
 -  [Visualization within Talbeau](https://public.tableau.com/app/profile/vlad.chernetskiy/viz/ForestlyActivitiesProjectRemaster/detalview) 
 ###  Data cleaning :
-In this part was used a SQL, precisely PosgreSQL [script for cleaning](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/cleaning%20script.sql) 
+Have been deleted all dupliactes, data has been aggregated and procesing for visualization by SQL , precisely PosgreSQL. Here is [script for cleaning](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/cleaning%20script.sql) 
 ### Data Transformation
-For Transforming has been used Pandas for parcing a file and NumPy for making a long format. For this has been written a [script for transforming](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/ForestDataCleaning.py). In result I got a [prepared dataset for analysis and visualization](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/forestdata1.3.zip).
- ### Calculation and data preparing data for visualization
-Some calculations in SQL and preparing some data for visualization. In result got a [SQL script](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/script%20for%20analys%20and%20visualization.sql) with values that can be used in visualization and analysis.
+Is this part cleaned data set had been conducted to long format for further procesing and visualizaiton . For this has been written a [script for transforming](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/ForestDataCleaning.py). In result I got a [long format dataset](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/forestdata1.3.zip).
+ ### Calculation and preparing data for analisis
+Had been calculated costs per cubic meter by region, finded a key metrics to be analysed. Builded useful and clean datasets for researching a correlations and regression analysis. In result have been selected two files([data1](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/data-1759582857171.csv) , [data2](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/data-1760369971750.csv)) for analysis by [SQL script](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/script%20for%20analys%20and%20visualization.sql) for further correlation and regresstion analysis. 
 ### Analysis & Forecasting
-for finding insights and forecasting values of price and felling were created:
+For finding insights and forecasting values of price and felling were created:
 - correlation analysis for detecting relations with main metrics: year, inductrial/fuel wood prices and volume of felling. In result was finded a strong correlation between all metrics.
 - conducted regresstion analysis for building and testing relationships
 - detecting lag effects(e.g., changes in prices delayed after felling) for metrics which dependenced by felling volume.
