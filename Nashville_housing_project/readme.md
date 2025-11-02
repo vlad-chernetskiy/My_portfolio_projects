@@ -3,7 +3,7 @@
 The data cleaning and visualization projetc of data from Kaggle. Origin data set you can download [here](https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data?resource=download)
 ## Porpose
 The goals of my project is: 
-- Aggregate the data for further vixualization.
+- Aggregate and clean the data.
 - Represent the overview of property market in Nashvile and environmenting cities.
 - Find insights between data and make hypothesises about relashionships between values.
 ## Contains 
