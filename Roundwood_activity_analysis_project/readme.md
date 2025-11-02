@@ -35,7 +35,7 @@ For visualization has been created a dashboard which contains:
 
   <img width="1149" height="664" alt="image" src="https://github.com/user-attachments/assets/c0bab29f-d9ea-4268-aab5-2e0e9aab39a5" />
 
-A dashboard you can seen in [my profile in Tableau Public].(https://public.tableau.com/app/profile/vlad.chernetskiy/viz/ForestlyActivitiesProjectRemaster/detalview)    
+A dashboard you can seen in [my profile in Tableau Public](https://public.tableau.com/app/profile/vlad.chernetskiy/viz/ForestlyActivitiesProjectRemaster/detalview).    
 ## Key insights
 - Total felling volume has been steadily decreaseing since 2015.
 - Prices of industrial roundwood and wood fuel have steadily increasing, suggesting supply reduction and higher demand.
