@@ -19,13 +19,7 @@ Have been deleted all dupliactes, data has been aggregated and procesing for vis
 ### Data Transformation
 Is this part cleaned data set had been conducted to long format for further procesing and visualizaiton . For this has been written a [script for transforming](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/ForestDataCleaning.py). In result I got a [long format dataset](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/forestdata1.3.zip).
  ### Calculation and preparing data for analisis
-Had been calculated costs per cubic meter by region, finded a key metrics to be analysed. Builded useful and clean datasets for researching a correlations and regression analysis. In result have been selected two files([data1](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/data-1759582857171.csv) , [data2](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/data-1760369971750.csv)) for analysis by [SQL script](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/script%20for%20analys%20and%20visualization.sql) for further correlation and regresstion analysis. 
-### Analysis & Forecasting
-For finding insights and forecasting values of price and felling were created:
-- correlation analysis for detecting relations with main metrics: year, inductrial/fuel wood prices and volume of felling. In result was finded a strong correlation between all metrics.
-- conducted regresstion analysis for building and testing relationships
-- detecting lag effects(e.g., changes in prices delayed after felling) for metrics which dependenced by felling volume.
-- Build basic predictive models of felling and price trends. 
+Had been calculated costs per cubic meter by region, finded a key metrics to be analysed. Builded useful and clean datasets for researching a correlations and regression analysis. In result have been selected two files([data1](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/data-1759582857171.csv) , [data2](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/data-1760369971750.csv)) for analysis by [SQL script](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Roundwood_activity_analysis_project/script%20for%20analys%20and%20visualization.sql) for further correlation and regresstion analysis.  
 ### Visualization
 For visualization has been created a dashboard which contains:
 - Yearly felling and revenue trends.
@@ -36,6 +30,14 @@ For visualization has been created a dashboard which contains:
   <img width="1149" height="664" alt="image" src="https://github.com/user-attachments/assets/c0bab29f-d9ea-4268-aab5-2e0e9aab39a5" />
 
 A dashboard you can seen in [my profile in Tableau Public](https://public.tableau.com/app/profile/vlad.chernetskiy/viz/ForestlyActivitiesProjectRemaster/detalview).    
+
+### Analysis & Forecasting
+For finding insights and forecasting values of price and felling were created:
+- correlation analysis for detecting relations with main metrics: year, inductrial/fuel wood prices and volume of felling. In result was finded a strong correlation between all metrics.
+- conducted regresstion analysis for building and testing relationships
+- detecting lag effects(e.g., changes in prices delayed after felling) for metrics which dependenced by felling volume.
+- Build basic predictive models of felling and price trends.
+
 ## Key insights
 - Total felling volume has been steadily decreaseing since 2015.
 - Prices of industrial roundwood and wood fuel have steadily increasing, suggesting supply reduction and higher demand.
