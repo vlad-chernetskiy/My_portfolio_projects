@@ -60,7 +60,7 @@ From the dashboard, we can observe a clear trend: total appraised value and acre
 
 ### 3. Correlation Analysis
 
-To verify this assumption, a [ orrelation matrix](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Nashville_housing_project/nashville_housing_corr%20(2).ipynb) were created in Python.
+To verify this assumption, a [correlation matrix](https://github.com/vlad-chernetskiy/My_portfolio_projects/blob/main/Nashville_housing_project/nashville_housing_corr%20(2).ipynb) were created in Python.
 
 ## Key findings:
 
